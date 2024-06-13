@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+}
+
+@font-face{
+    font-family:"Arialic";
+    src: url('assets/font/arialic-hollow/Arialic Hollow.ttf');
+}
+@font-face {
+    font-family: 'Inria';
+    src:url('assets/font/Inria_Sans/InriaSans-Light.ttf')format('ttf'),
+        url('assets/font/Inria_Sans/InriaSans-Regular.ttf');
+}
+
+@font-face {
+    font-family:'Inter';
+    src: url('assets/font/Inter/Inter-VariableFont_slnt,wght.ttf');
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+h1{
+    font-family: 'Inter';
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+h2{
+    font-family: 'Inria';
+    font-weight: 100;
+}
+
+h3{
+    font-family: 'Arialic';
+    font-size: 40px;
+    font-weight: 550;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-family: 'Inria';
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+img{
+    height: 50px;
+}
+
+.imgProject{
+    height: 350px;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+
+.sectionProject{
+    display: flex;
+}
+
+.titleProject{
+    font-style: italic;
+}
+
+.textProject{
+    font-family: 'Inria';
+    margin-left: 10px;
+}
+
+.iconContact{
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.frontExp, .backExp {
+    display: flex;
+    justify-content: space-evenly;
+}
+
