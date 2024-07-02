@@ -8,8 +8,7 @@ export default function App() {
   return (
     <>
         <HeaderPortfolio />
-        <NavBar />
-        <ProjectPage />
+        <ProjectPage />   
         <FooterPortfolio />
     </> 
     

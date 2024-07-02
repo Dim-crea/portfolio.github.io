@@ -2,10 +2,12 @@
 
 export default function NavBar () {
     return(
-    <div className="w-full mt-10 flex justify-around overflow-x-auto">
-        <p>Projects</p>
-        <p>Présentation</p>
-        <p>Photographe</p>
-    </div>
+    <nav className="w-full mt-6 sticky overflow-x-auto">
+        <ul className="flex justify-around">
+            <li className="font-medium">Projects</li>
+            <li className="font-medium">Présentation</li>
+            <li className="font-medium">Photographe</li>
+        </ul>
+    </nav>
     )
 }
