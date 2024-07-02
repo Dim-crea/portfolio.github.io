@@ -15,14 +15,14 @@ import docker from "../../assets/picture/docker.svg"
 
 export default function ProjectPage(){
     return (
-        <>
+        <div className="overflow-y-auto">
             <div className="mt-3 flex sm:mx-28">
                 <img src={FormImgProject} className="h-80 rounded-3xl ml-3 sm:h-96"></img>
                 <div className="mx-3 sm:mx-6">
                     <h2 class="TitleProject my-4">List Your Success</h2>
                     <p>
                     List Your Sucess est une application développée avec flutter côté front-end et nodeJs Express côté back-end. C'est l'un de mes premiers projets les plus concret. List Your Sucess a été créé par une personne ambitieuse pour toute les personnes ambitieuses souhaitant organiser et planifier leurs objectifs.
-                    Projet partagé surgf GitHub 
+                    Projet partagé sur GitHub 
                     </p>
                     <div>
                         <a href="https://github.com/Dim-crea/ListYourSucces"><img src={GitHub} className="h-10 mt-2"></img></a>
@@ -50,6 +50,6 @@ export default function ProjectPage(){
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     );
 }
