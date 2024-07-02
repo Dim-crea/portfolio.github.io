@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio.github.io/static/js/main.7fc37d8a.js",
+    "main.css": "/portfolio.github.io/static/css/main.14589d33.css",
+    "main.js": "/portfolio.github.io/static/js/main.35aab765.js",
     "static/js/453.ace4626a.chunk.js": "/portfolio.github.io/static/js/453.ace4626a.chunk.js",
-    "static/media/logo.svg": "/portfolio.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Form de connexion.svg": "/portfolio.github.io/static/media/Form de connexion.2e9477cae959b16efc975513c3d82a92.svg",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/portfolio.github.io/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio.github.io/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/Arialic Hollow.ttf": "/portfolio.github.io/static/media/Arialic Hollow.f98402a8dcc95c603c1f.ttf",
+    "static/media/InriaSans-Light.ttf": "/portfolio.github.io/static/media/InriaSans-Light.206ec293503d64dc42ae.ttf",
+    "static/media/express.svg": "/portfolio.github.io/static/media/express.62b6be91bb237350903a80f102f7e904.svg",
+    "static/media/react.svg": "/portfolio.github.io/static/media/react.9799b2dcb18ddb94b0bebc3f990f3704.svg",
+    "static/media/mysql.svg": "/portfolio.github.io/static/media/mysql.50686b6c7b9c1b23195047b29475640d.svg",
+    "static/media/node-js.svg": "/portfolio.github.io/static/media/node-js.15182704e48492197ea51de3934ff76f.svg",
+    "static/media/GitHub.svg": "/portfolio.github.io/static/media/GitHub.e46e6fed383f1ce7fb60af95683174ff.svg",
+    "static/media/docker.svg": "/portfolio.github.io/static/media/docker.f1a4fe45a955064ad750d19267da7a25.svg",
+    "static/media/LinkedIn 2.svg": "/portfolio.github.io/static/media/LinkedIn 2.5d8013e5719be31e581822ce8005248e.svg",
     "index.html": "/portfolio.github.io/index.html",
-    "main.f855e6bc.css.map": "/portfolio.github.io/static/css/main.f855e6bc.css.map",
-    "main.7fc37d8a.js.map": "/portfolio.github.io/static/js/main.7fc37d8a.js.map",
+    "static/media/nextjs1.svg": "/portfolio.github.io/static/media/nextjs1.607b44fe4d0a30f05f92317d6b46fc2d.svg",
+    "static/media/tailwind-css.svg": "/portfolio.github.io/static/media/tailwind-css.2c7d824a613f178f10c8f433dfbbb7b2.svg",
+    "static/media/flutter.svg": "/portfolio.github.io/static/media/flutter.be53dd8640913ce6f40fb17e47574f76.svg",
+    "main.14589d33.css.map": "/portfolio.github.io/static/css/main.14589d33.css.map",
+    "main.35aab765.js.map": "/portfolio.github.io/static/js/main.35aab765.js.map",
     "453.ace4626a.chunk.js.map": "/portfolio.github.io/static/js/453.ace4626a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.7fc37d8a.js"
+    "static/css/main.14589d33.css",
+    "static/js/main.35aab765.js"
   ]
 }
