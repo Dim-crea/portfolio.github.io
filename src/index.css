@@ -2,8 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Inria" ;
+  src: url("assets/fonts/Inria_Sans/InriaSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "Arialic";
+  src: url("assets/fonts/arialic-hollow/Arialic\ Hollow.ttf");
+}
+
+@font-face {
+  font-family: "Inter" ;
+  src: url("assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat" ;
+  src: url("assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
 body {
   margin: 0;
+}
+
+h1{
+  font-family: "Inter";
+  font-weight: 800;
+}
+
+h2{
+  font-family:"Inria";
 }
 
 
