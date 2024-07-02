@@ -40,7 +40,7 @@ export default function ProjectPage(){
                         <img src={flutter} className="h-14"></img>
                     </div>
                 </div>
-                <div className=" mt-5">
+                <div className=" mt-5 mb-16">
                     <h3 className="ml-8 mb-2 text-lg">Back-end</h3>
                     <div className="mx-3 flex justify-evenly">
                         <img src={nodeImg} className="h-14"></img>
