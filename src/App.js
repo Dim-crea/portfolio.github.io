@@ -27,7 +27,8 @@ export default function App() {
   return (
     <>
         <HeaderPortfolio />
-        <RouterProvider router={router}/>
+        {/* <RouterProvider router={router}/> */}
+        <ProjectPage />
         <FooterPortfolio />
     </> 
     
