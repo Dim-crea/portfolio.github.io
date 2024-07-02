@@ -15,7 +15,7 @@ import docker from "../../assets/picture/docker.svg"
 
 export default function ProjectPage(){
     return (
-        <div className="overflow-y-auto">
+        <div >
             <div className="mt-3 flex sm:mx-28">
                 <img src={FormImgProject} className="h-80 rounded-3xl ml-3 sm:h-96"></img>
                 <div className="mx-3 sm:mx-6">
