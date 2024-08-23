@@ -10,8 +10,8 @@ export default function NavBarMenu () {
         <ul className="flex justify-around">
             
             <li>
-                {/* <Link to="/portfolio.github.io/" className="focus:font-bold">Project</Link> */}
-                <Link to="/" className="focus:font-bold">Project</Link>
+                <Link to="/portfolio.github.io/" className="focus:font-bold">Project</Link>
+                {/* <Link to="/" className="focus:font-bold">Project</Link> */}
             </li>
             <li>
                 <Link to="/presentation" className="focus:font-bold">Présentation</Link>
