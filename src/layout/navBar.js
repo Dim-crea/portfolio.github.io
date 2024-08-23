@@ -4,19 +4,19 @@ import ProjectPage from "../components/ProjectPage/projectPage";
 import PresentationPage from "../components/Présentation/PrésentationPage";
 
 
-export default function Navigation () {
+export default function NavBarMenu () {
     return(
     <nav className="w-full mt-6 sticky overflow-x-auto">
         <ul className="flex justify-around">
-            {/* <li className="font-medium"><a href={<ProjectPage />}>Projects</a></li> */}
+            
             <li>
-                <Link to="/">Project</Link>
+                <Link to="/" className="focus:font-bold">Project</Link>
             </li>
             <li>
-                <Link to="/presentation">Présentation</Link>
+                <Link to="/presentation" className="focus:font-bold">Présentation</Link>
             </li>
             <li>
-                <Link to="/photographie">Photographe</Link>
+                <Link to="/photographie" className="focus:font-bold">Photographe</Link>
             </li>
         </ul>
     </nav>

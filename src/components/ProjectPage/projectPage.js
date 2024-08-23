@@ -17,9 +17,9 @@ export default function ProjectPage(){
     return (
         <div >
             <div className="mt-3 flex sm:mx-28">
-                <img src={FormImgProject} className="h-80 rounded-3xl ml-3 sm:h-96"></img>
+                <img src={FormImgProject} className="h-80 rounded-3xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
                 <div className="mx-3 sm:mx-6">
-                    <h2 class="TitleProject my-4">List Your Success</h2>
+                    <h2 class=" font-bold my-4">List Your Success</h2>
                     <p>
                     List Your Sucess est une application développée avec flutter côté front-end et nodeJs Express côté back-end. C'est l'un de mes premiers projets les plus concret. List Your Sucess a été créé par une personne ambitieuse pour toute les personnes ambitieuses souhaitant organiser et planifier leurs objectifs.
                     Projet partagé sur GitHub 
@@ -30,7 +30,7 @@ export default function ProjectPage(){
                 </div>
             </div>
             <section className="mt-2">
-                <h2 className="ml-3 text-xl ">SKILL</h2>
+                <h2 className="ml-3 text-xl font-bold ">SKILL</h2>
                 <div>
                     <h3 className="ml-8 mt-4 mb-2 text-lg">Front-end</h3>
                     <div className="mx-3 flex justify-evenly">
