@@ -11,7 +11,7 @@ import NavBarMenu from "./layout/navBar";
 
 const router = createBrowserRouter([
   {
-    path :"/",
+    path :"/portfolio.github.io/",
     element : <>
         <NavBarMenu />
         <ProjectPage />
