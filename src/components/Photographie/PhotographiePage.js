@@ -19,35 +19,35 @@ export default function PhotographiePage () {
                 <p>J'ai décidé de partager avec vous quelques clichés! Vous me direz merci après ahah ! </p>
             </div>
 
-            <div className= "mt-6 mx-3 sm:mx-28">
+            <div className= "mt-6 mx-3 mb-16 sm:mx-28">
                 <Swiper 
                     modules={[EffectCoverflow]}  effect='coverflow'
-                    depth={900}
+                    depth={100}
                     rotate={65}
                 >
                     <SwiperSlide>
                         <div className='flex flex-col items-center '>
-                            <img src={Picture1} className='h-72 rounded-lg'></img>
+                            <img src={Picture1} className='h-72 rounded-lg sm:h-96'></img>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='flex flex-col items-center '>
-                            <img src={Picture4} className='h-72 rounded-lg'></img>
+                            <img src={Picture4} className='h-72 rounded-lg sm:h-96'></img>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className='flex flex-col items-center '>
-                            <img src={Picture2} className='h-72 rounded-lg'></img>
+                            <img src={Picture2} className='h-72 rounded-lg sm:h-96'></img>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className='flex flex-col items-center '>
-                            <img src={Picture5} className='h-72 rounded-lg'></img>
+                            <img src={Picture5} className='h-72 rounded-lg sm:h-96'></img>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className='flex flex-col items-center '>
-                            <img src={Picture3} className='h-72 rounded-lg'></img>
+                            <img src={Picture3} className='h-72 rounded-lg sm:h-96'></img>
                         </div>
                     </SwiperSlide>
                     
