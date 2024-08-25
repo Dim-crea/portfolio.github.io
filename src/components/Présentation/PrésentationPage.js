@@ -5,14 +5,16 @@ import { EffectFlip } from 'swiper/modules';
 import 'swiper/css'
 import 'swiper/css/effect-flip'
 
+import cv from '../../assets/Cv Hauterville Dimitry.pdf'
+
 export default function PresentationPage () {
     return (
         <>
         <div>
             <div className="mt-6 mx-3 sm:mx-28">
-                <h2 class=" font-bold my-4 mx-10">Dim Le Fabuleux ! </h2>
+                <h2 class=" font-bold my-4 mx-10">Un peu plus sur moi. </h2>
                 <p className="mx-8">
-                Bonjour ! Je suis Dimitry, un esprit créatif de 26 ans, à la fois développeur et photographe. En tant qu'autodidacte, depuis maintenant 4 ans je m'exerce à développer mon oeil artistique avec la photographie. Une passion qui m'a amener à faire attention aux détails et à être méticuleux dans tous ce que j'entreprend. Mais tous ça n'est que le début!
+                Bonjour ! Je suis Dimitry, un esprit créatif de 26 ans, à la fois développeur et photographe. En tant qu'autodidacte, depuis maintenant 4 ans je m'exerce à développer mon oeil artistique avec la photographie. Une passion qui m'a amener à faire attention aux détails et à être méticuleux dans tous ce que j'entreprend.
                 </p>
                 <br></br>
                 <p className="mx-8">
@@ -21,7 +23,7 @@ export default function PresentationPage () {
                 </p>
             </div>
 
-            <div className= "mt-6 mx-3 mb-16 sm:mx-28">
+            {/* <div className= "mt-6 mx-3 mb-16 sm:mx-28">
                 <Swiper 
                     modules={[EffectFlip]}  effect='flip'
                     
@@ -49,6 +51,12 @@ export default function PresentationPage () {
                         </SwiperSlide>
                     
                 </Swiper>
+            </div> */}
+            <div className='flex flex-col items-center mt-4 mb-20'>
+            <a href={cv}
+                download={cv} className='py-2 px-4 border rounded-2xl active:font-bold'>
+                    Téléchargez mon CV 
+                </a>
             </div>
         </div>
             

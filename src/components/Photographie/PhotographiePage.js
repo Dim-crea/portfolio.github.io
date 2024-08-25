@@ -5,6 +5,12 @@ import { EffectCoverflow } from 'swiper/modules';
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 
+import  Picture1  from '../../assets/photos/IMG-20240823-WA0002.jpg'
+import Picture2 from '../../assets/photos/IMG-20240823-WA0003.jpg'
+import Picture3 from '../../assets/photos/IMG-20240823-WA0004.jpg'
+import Picture4 from '../../assets/photos/IMG-20240823-WA0005.jpg'
+import Picture5 from '../../assets/photos/IMG-20240823-WA0006.jpg'
+
 export default function PhotographiePage () {
     return (
         <>
@@ -18,25 +24,32 @@ export default function PhotographiePage () {
                     modules={[EffectCoverflow]}  effect='coverflow'
                     depth={900}
                     rotate={65}
-                    
                 >
                     <SwiperSlide>
-                        <img src='../assets/photos/IMG-20240823-WA0002.jpg'></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className='py-3 rounded-2xl bg-gradient-to-b from-zinc-300 from-10% flex flex-col items-center '>
-                            <p className='font-bold'>Conseiller commercial</p>
-                            <p className=''>Cass-Auto</p>
-                            <p className=''>De Janvier 2022 à Octobre 2022</p>
-                        </div> 
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className='py-3 rounded-2xl bg-gradient-to-b from-zinc-300 from-10% flex flex-col items-center '>
-                            <p className='font-bold'>Vendeur en prêt-à-porter</p>
-                            <p className=''>Armor Lux</p>
-                            <p className=''>De décembre 2022 à Février 2023</p>
+                        <div className='flex flex-col items-center '>
+                            <img src={Picture1} className='h-72 rounded-lg'></img>
                         </div>
-                        </SwiperSlide>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='flex flex-col items-center '>
+                            <img src={Picture4} className='h-72 rounded-lg'></img>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div className='flex flex-col items-center '>
+                            <img src={Picture2} className='h-72 rounded-lg'></img>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div className='flex flex-col items-center '>
+                            <img src={Picture5} className='h-72 rounded-lg'></img>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div className='flex flex-col items-center '>
+                            <img src={Picture3} className='h-72 rounded-lg'></img>
+                        </div>
+                    </SwiperSlide>
                     
                 </Swiper>
             </div>
