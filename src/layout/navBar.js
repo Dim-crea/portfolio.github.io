@@ -6,7 +6,7 @@ import PresentationPage from "../components/Présentation/PrésentationPage";
 
 export default function NavBarMenu () {
     return(
-    <nav className="w-full mt-6 sticky overflow-x-auto">
+    <nav className="w-full mt-6 overflow-x-auto">
         <ul className="flex justify-around">
             
             <li>

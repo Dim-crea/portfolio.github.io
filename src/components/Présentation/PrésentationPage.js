@@ -21,7 +21,7 @@ export default function PresentationPage () {
                 </p>
             </div>
 
-            <div className= "mt-6 mx-3 sm:mx-28">
+            <div className= "mt-6 mx-3 mb-16 sm:mx-28">
                 <Swiper 
                     modules={[EffectFlip]}  effect='flip'
                     
