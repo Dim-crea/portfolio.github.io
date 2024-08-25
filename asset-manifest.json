@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.33668f25.css",
-    "main.js": "/portfolio.github.io/static/js/main.cb25c0ad.js",
+    "main.css": "/portfolio.github.io/static/css/main.e268316e.css",
+    "main.js": "/portfolio.github.io/static/js/main.1e130ad3.js",
     "static/js/453.ace4626a.chunk.js": "/portfolio.github.io/static/js/453.ace4626a.chunk.js",
     "static/media/Form de connexion.svg": "/portfolio.github.io/static/media/Form de connexion.2e9477cae959b16efc975513c3d82a92.svg",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/portfolio.github.io/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
@@ -19,12 +19,12 @@
     "static/media/nextjs1.svg": "/portfolio.github.io/static/media/nextjs1.607b44fe4d0a30f05f92317d6b46fc2d.svg",
     "static/media/tailwind-css.svg": "/portfolio.github.io/static/media/tailwind-css.2c7d824a613f178f10c8f433dfbbb7b2.svg",
     "static/media/flutter.svg": "/portfolio.github.io/static/media/flutter.be53dd8640913ce6f40fb17e47574f76.svg",
-    "main.33668f25.css.map": "/portfolio.github.io/static/css/main.33668f25.css.map",
-    "main.cb25c0ad.js.map": "/portfolio.github.io/static/js/main.cb25c0ad.js.map",
+    "main.e268316e.css.map": "/portfolio.github.io/static/css/main.e268316e.css.map",
+    "main.1e130ad3.js.map": "/portfolio.github.io/static/js/main.1e130ad3.js.map",
     "453.ace4626a.chunk.js.map": "/portfolio.github.io/static/js/453.ace4626a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33668f25.css",
-    "static/js/main.cb25c0ad.js"
+    "static/css/main.e268316e.css",
+    "static/js/main.1e130ad3.js"
   ]
 }
