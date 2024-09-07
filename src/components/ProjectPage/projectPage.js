@@ -35,7 +35,7 @@ export default function ProjectPage(){
                     Projet partagé sur GitHub 
                     </p>
                     <div>
-                        <a href="https://github.com/Dim-crea/ListYourSucces"><img src={GitHub} className="h-10 mt-2"></img></a>
+                        <a href="https://github.com/Dim-crea/ListYourSuccess"><img src={GitHub} className="h-10 mt-2"></img></a>
                     </div>
                 </div>
             </div>
