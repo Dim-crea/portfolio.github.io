@@ -7,10 +7,11 @@ import 'swiper/css/effect-flip'
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import '../../pagination.css'
 
 
 import FormImgProject from "../../assets/picture/Form de connexion.svg"
-import ProjectPhoto from "../../assets/photos/Capture d'écran 2024-10-20 140213.png"
+import ProjectPhoto from "../../assets/picture/portfolioPhoto.svg"
 
 import GitHub from "../../assets/picture/GitHub.svg"
 
@@ -31,17 +32,22 @@ import jira from "../../assets/picture/jira.svg"
 
 export default function ProjectPage(){
     return (
-        <div >
+        <div>
+            <section className='md:hidden'>
                 <Swiper 
-                    modules={[EffectCoverflow]}  effect='coverflow'
+                    
+                    modules={[EffectCoverflow, Pagination]}  effect='coverflow'
                     depth={100}
                     rotate={65}
                     pagination
-
+                    autoplay={{
+                        delay:1500,
+                        disableOnInteraction: false,
+                    }}
                 >
                     <SwiperSlide>
-                    <div className="mt-3 flex sm:mx-28">
-                        <img src={FormImgProject} className="h-80 rounded-3xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
+                    <div className=" mt-3 pb-8 flex sm:mx-28">
+                        <img src={FormImgProject} className="h-80 rounded-2xl ml-3 mt-10 sm:h-96 "></img>
                         <div className="mx-3 sm:mx-6">
                             <h2 class=" font-bold my-4 mt-7">List Your Success</h2>
                             <p>
@@ -55,8 +61,8 @@ export default function ProjectPage(){
                     </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="mt-3 flex sm:mx-28">
-                        <img src={ProjectPhoto} className="h-80 rounded-3xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
+                    <div className="mt-3 pb-8 flex sm:mx-28">
+                        <img src={ProjectPhoto} className="h-80 rounded-2xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
                         <div className="mx-3 sm:mx-6">
                             <h2 class=" font-bold my-4 mt-7">Dim-photography</h2>
                             <p>
@@ -69,7 +75,41 @@ export default function ProjectPage(){
                     </div>
                     </SwiperSlide>  
                 </Swiper>
-            
+                </section>
+
+                <section className='hidden md:flex '>
+                    <div>
+                    <div className="mt-3 pb-8 flex md:flex-col">
+                        <img src={FormImgProject} className="h-80 rounded-3xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
+                        <div className="mx-3 sm:mx-6 md:text-center">
+                            <h2 class=" font-bold my-4 mt-7">List Your Success</h2>
+                            <p>
+                            List Your Sucess est une application développée avec flutter côté front-end et nodeJs Express côté back-end. C'est l'un de mes premiers projets les plus concret. List Your Sucess a été créé par une personne ambitieuse pour toute les personnes ambitieuses souhaitant organiser et planifier leurs objectifs.
+                            Projet partagé sur GitHub 
+                            </p>
+                            <div>
+                            <a href="https://github.com/Dim-crea/ListYourSuccess"><img src={GitHub} className="h-10 mt-2"></img></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div>
+                    <div className="mt-3 pb-8 flex md:flex-col">
+                        <img src={ProjectPhoto} className="h-80 rounded-3xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
+                        <div className="mx-3 sm:mx-6 md:text-center">
+                            <h2 class=" font-bold my-4 mt-7">Dim-photography</h2>
+                            <p>
+                                Dim-photography est un site ayant pour but de mettre en avant mon travail de photographe et des récolter des contact client par le biais d'un formulaire. J'ai utilisé pour ce site HTML/CSS, le framework tailwindCSS et sans oublier Javascript. Pour ma BDD j'ai utilisé phpMyAdmin.
+                            </p>
+                            <div>
+                            <a href="https://github.com/Dim-crea/PortfolioPhoto"><img src={GitHub} className="h-10 mt-2"></img></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+
             <section className="mt-2">
                 <h2 className="ml-3 text-xl font-bold ">HARD SKILLS</h2>
                 <div>

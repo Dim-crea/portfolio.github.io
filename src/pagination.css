@@ -1,0 +1,10 @@
+.swiper-pagination-bullet {
+    background-color: grey; /* Couleur des points non actifs */
+    opacity: 0.5; /* Rendre les points totalement visibles */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: black; /* Couleur du point actif */
+    opacity: 0.8;
+  }
+  
