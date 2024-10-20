@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.aea10666.css",
-    "main.js": "/portfolio.github.io/static/js/main.c5c009de.js",
+    "main.css": "/portfolio.github.io/static/css/main.de7c6a89.css",
+    "main.js": "/portfolio.github.io/static/js/main.556693d0.js",
     "static/js/453.ace4626a.chunk.js": "/portfolio.github.io/static/js/453.ace4626a.chunk.js",
     "static/media/Form de connexion.svg": "/portfolio.github.io/static/media/Form de connexion.2e9477cae959b16efc975513c3d82a92.svg",
     "static/media/CV Hauterville Développeur Full-Stack.pdf": "/portfolio.github.io/static/media/CV Hauterville Développeur Full-Stack.ad44ed2db6e7028cf9a1.pdf",
@@ -12,9 +12,9 @@
     "static/media/InriaSans-Light.ttf": "/portfolio.github.io/static/media/InriaSans-Light.206ec293503d64dc42ae.ttf",
     "static/media/IMG-20240823-WA0002.jpg": "/portfolio.github.io/static/media/IMG-20240823-WA0002.d7c7c5e4eb1940acf6ef.jpg",
     "static/media/IMG-20240823-WA0005.jpg": "/portfolio.github.io/static/media/IMG-20240823-WA0005.fb7bd88af391700ba355.jpg",
-    "static/media/Capture d'écran 2024-10-20 140213.png": "/portfolio.github.io/static/media/Capture d'écran 2024-10-20 140213.861a211f7c84f27479e6.png",
     "static/media/IMG-20240823-WA0003.jpg": "/portfolio.github.io/static/media/IMG-20240823-WA0003.58aad7274838c766ac74.jpg",
     "static/media/IMG-20240823-WA0004.jpg": "/portfolio.github.io/static/media/IMG-20240823-WA0004.d6b4ac119379ad6ac0e2.jpg",
+    "static/media/portfolioPhoto.svg": "/portfolio.github.io/static/media/portfolioPhoto.c79ef97b90ec843b7effe437664a1727.svg",
     "static/media/Créativité.svg": "/portfolio.github.io/static/media/Créativité.7ed5977217c5810bc4a07a40c39a1308.svg",
     "static/media/Autonomie.svg": "/portfolio.github.io/static/media/Autonomie.ea0eb71b93774a4ca8db9aa46f54e04b.svg",
     "static/media/challenger.svg": "/portfolio.github.io/static/media/challenger.5ad650893be4f8793643daec3780e2df.svg",
@@ -33,12 +33,12 @@
     "static/media/nextjs1.svg": "/portfolio.github.io/static/media/nextjs1.607b44fe4d0a30f05f92317d6b46fc2d.svg",
     "static/media/tailwind-css.svg": "/portfolio.github.io/static/media/tailwind-css.2c7d824a613f178f10c8f433dfbbb7b2.svg",
     "static/media/flutter.svg": "/portfolio.github.io/static/media/flutter.be53dd8640913ce6f40fb17e47574f76.svg",
-    "main.aea10666.css.map": "/portfolio.github.io/static/css/main.aea10666.css.map",
-    "main.c5c009de.js.map": "/portfolio.github.io/static/js/main.c5c009de.js.map",
+    "main.de7c6a89.css.map": "/portfolio.github.io/static/css/main.de7c6a89.css.map",
+    "main.556693d0.js.map": "/portfolio.github.io/static/js/main.556693d0.js.map",
     "453.ace4626a.chunk.js.map": "/portfolio.github.io/static/js/453.ace4626a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aea10666.css",
-    "static/js/main.c5c009de.js"
+    "static/css/main.de7c6a89.css",
+    "static/js/main.556693d0.js"
   ]
 }
