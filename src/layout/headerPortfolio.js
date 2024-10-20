@@ -4,7 +4,7 @@ import Navigation from "../layout/navBar";
 export default function HeaderPortfolio () {
 
     return (
-    <header className="mt-7 sticky top-0 bg-white/30 backdrop-blur-md">
+    <header className="mt-7 z-10 sticky top-0 bg-white/30 backdrop-blur-md">
         {/* <div>
             <button>
                 <img src={Sun}></img>

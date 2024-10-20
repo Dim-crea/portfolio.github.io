@@ -1,10 +1,16 @@
 import { Swiper, SwiperSlide, } from 'swiper/react'
 import { EffectFlip, FreeMode } from 'swiper/modules'; 
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'; 
 
 import 'swiper/css'
 import 'swiper/css/effect-flip'
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 
 import FormImgProject from "../../assets/picture/Form de connexion.svg"
+import ProjectPhoto from "../../assets/photos/Capture d'écran 2024-10-20 140213.png"
 
 import GitHub from "../../assets/picture/GitHub.svg"
 
@@ -26,21 +32,46 @@ import jira from "../../assets/picture/jira.svg"
 export default function ProjectPage(){
     return (
         <div >
-            <div className="mt-3 flex sm:mx-28">
-                <img src={FormImgProject} className="h-80 rounded-3xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
-                <div className="mx-3 sm:mx-6">
-                    <h2 class=" font-bold my-4 mt-7">List Your Success</h2>
-                    <p>
-                    List Your Sucess est une application développée avec flutter côté front-end et nodeJs Express côté back-end. C'est l'un de mes premiers projets les plus concret. List Your Sucess a été créé par une personne ambitieuse pour toute les personnes ambitieuses souhaitant organiser et planifier leurs objectifs.
-                    Projet partagé sur GitHub 
-                    </p>
-                    <div>
-                        <a href="https://github.com/Dim-crea/ListYourSuccess"><img src={GitHub} className="h-10 mt-2"></img></a>
+                <Swiper 
+                    modules={[EffectCoverflow]}  effect='coverflow'
+                    depth={100}
+                    rotate={65}
+                    pagination
+
+                >
+                    <SwiperSlide>
+                    <div className="mt-3 flex sm:mx-28">
+                        <img src={FormImgProject} className="h-80 rounded-3xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
+                        <div className="mx-3 sm:mx-6">
+                            <h2 class=" font-bold my-4 mt-7">List Your Success</h2>
+                            <p>
+                            List Your Sucess est une application développée avec flutter côté front-end et nodeJs Express côté back-end. C'est l'un de mes premiers projets les plus concret. List Your Sucess a été créé par une personne ambitieuse pour toute les personnes ambitieuses souhaitant organiser et planifier leurs objectifs.
+                            Projet partagé sur GitHub 
+                            </p>
+                            <div>
+                            <a href="https://github.com/Dim-crea/ListYourSuccess"><img src={GitHub} className="h-10 mt-2"></img></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div className="mt-3 flex sm:mx-28">
+                        <img src={ProjectPhoto} className="h-80 rounded-3xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
+                        <div className="mx-3 sm:mx-6">
+                            <h2 class=" font-bold my-4 mt-7">Dim-photography</h2>
+                            <p>
+                                Dim-photography est un site ayant pour but de mettre en avant mon travail de photographe et des récolter des contact client par le biais d'un formulaire. J'ai utilisé pour ce site HTML/CSS, le framework tailwindCSS et sans oublier Javascript. Pour ma BDD j'ai utilisé phpMyAdmin.
+                            </p>
+                            <div>
+                            <a href="https://github.com/Dim-crea/PortfolioPhoto"><img src={GitHub} className="h-10 mt-2"></img></a>
+                            </div>
+                        </div>
+                    </div>
+                    </SwiperSlide>  
+                </Swiper>
+            
             <section className="mt-2">
-                <h2 className="ml-3 text-xl font-bold ">SKILL</h2>
+                <h2 className="ml-3 text-xl font-bold ">HARD SKILLS</h2>
                 <div>
                     <h3 className="ml-8 mt-4 mb-2 text-lg">Front-end</h3>
                     

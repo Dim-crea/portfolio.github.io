@@ -5,22 +5,44 @@ import { EffectFlip } from 'swiper/modules';
 import 'swiper/css'
 import 'swiper/css/effect-flip'
 
-import cv from '../../assets/Cv Hauterville Dimitry.pdf'
+import cv from '../../assets/CV Hauterville Développeur Full-Stack.pdf'
+import creativity from '../../assets/picture/Créativité.svg'
+import challenger from '../../assets/picture/challenger.svg' 
+import autonomie from '../../assets/picture/Autonomie.svg'
+import teamSpirit from '../../assets/picture/Team spirit.svg'
 
-export default function PresentationPage () {
+export default function PresentationPage(){
     return (
         <>
         <div>
             <div className="mt-6 mx-3 sm:mx-28">
-                <h2 class=" font-bold my-4 mx-10">Un peu plus sur moi. </h2>
+                <h2 class=" font-bold my-4 text-xl mx-10">Un peu plus sur moi. </h2>
                 <p className="mx-8">
-                Bonjour ! Je suis Dimitry, un esprit créatif de 26 ans, à la fois développeur et photographe. En tant qu'autodidacte, depuis maintenant 4 ans je m'exerce à développer mon oeil artistique avec la photographie. Une passion qui m'a amener à faire attention aux détails et à être méticuleux dans tous ce que j'entreprend.
+                Je suis Dimitry, un esprit créatif de 26 ans, à la fois développeur et photographe. En tant qu'autodidacte, j'ai commencé a apprendre la programmation il y a 2 ans. Aujourd'hui je suis dipômé et j'ai quelque travaux personnels à mon actif. 
                 </p>
                 <br></br>
-                <p className="mx-8">
-                    Toujours été attiré par le monde de la tech, je décide de devenir développeur full stack ! Une reconversion professionnelle qui est aujourd'hui l'une de mes meilleure décision.
-                    Milieu ou je peux aussi mettre à profit ma créativité et où je ne cesse d'apprendre.
-                </p>
+                <h2 class=" font-bold my-4 text-xl mx-10">SOFT SKILLS</h2>
+                <div className="mx-3 flex justify-evenly">
+                    <div>
+                        <img src={creativity} className="h-20"></img>
+                        <p>Créativité</p>
+                    </div>
+                    <div>
+                        <img src={challenger} className="h-20 mt-2"></img>
+                        <p>Challenger</p>
+                    </div>
+                </div>
+                <div className="mx-3 flex justify-evenly">
+                    <div>
+                        <img src={teamSpirit} className="h-20 mt-2"></img>
+                        <p>Esprit d'équipe</p>
+                    </div>
+                    <div>
+                        <img src={autonomie} className="h-20 mt-2"></img>
+                        <p>Autonome</p>
+                    </div>
+                    
+                </div>
             </div>
 
             {/* <div className= "mt-6 mx-3 mb-16 sm:mx-28">
