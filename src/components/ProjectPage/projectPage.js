@@ -77,7 +77,7 @@ export default function ProjectPage(){
                     </SwiperSlide>  
                     <SwiperSlide>
                     <div className="mt-3 pb-8 flex sm:mx-28">
-                        <img src={PortfolioChéris} className="h-80 rounded-2xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
+                        <img src={PortfolioChéris} className="h-60 rounded-2xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
                         <div className="mx-3 sm:mx-6">
                             <h2 class=" font-bold my-4 mt-7">Chéris ton Body</h2>
                             <p>
