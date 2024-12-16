@@ -12,6 +12,7 @@ import '../../pagination.css'
 
 import FormImgProject from "../../assets/picture/Form de connexion.svg"
 import ProjectPhoto from "../../assets/picture/portfolioPhoto.svg"
+import PortfolioChéris from "../../assets/picture/PortfolioChéris.svg"
 
 import GitHub from "../../assets/picture/GitHub.svg"
 
@@ -70,6 +71,20 @@ export default function ProjectPage(){
                             </p>
                             <div>
                             <a href="https://github.com/Dim-crea/PortfolioPhoto"><img src={GitHub} className="h-10 mt-2"></img></a>
+                            </div>
+                        </div>
+                    </div>
+                    </SwiperSlide>  
+                    <SwiperSlide>
+                    <div className="mt-3 pb-8 flex sm:mx-28">
+                        <img src={PortfolioChéris} className="h-80 rounded-2xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
+                        <div className="mx-3 sm:mx-6">
+                            <h2 class=" font-bold my-4 mt-7">Chéris ton Body</h2>
+                            <p>
+                                Chéristonbody.fr est un site mise en place pour la réservation de place pour des évènements donnés par une coach sportive. Je l'ai déployé à l'aide de vercel et j'ai utilisé nextJs pour ce projet car il est à évoluer. 
+                            </p>
+                            <div>
+                            <a href=""><img src={GitHub} className="h-10 mt-2"></img></a>
                             </div>
                         </div>
                     </div>
