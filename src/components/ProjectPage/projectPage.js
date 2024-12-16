@@ -48,7 +48,7 @@ export default function ProjectPage(){
                 >
                     <SwiperSlide>
                     <div className=" mt-3 pb-8 flex sm:mx-28">
-                        <img src={FormImgProject} className="h-80 rounded-2xl ml-3 mt-10 sm:h-96 "></img>
+                        <img src={FormImgProject} className="h-60 rounded-2xl ml-3 mt-10 sm:h-96 "></img>
                         <div className="mx-3 sm:mx-6">
                             <h2 class=" font-bold my-4 mt-7">List Your Success</h2>
                             <p>
@@ -63,7 +63,7 @@ export default function ProjectPage(){
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="mt-3 pb-8 flex sm:mx-28">
-                        <img src={ProjectPhoto} className="h-80 rounded-2xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
+                        <img src={ProjectPhoto} className="h-60 rounded-2xl ml-3 mt-10 sm:h-96 sm:mt-8"></img>
                         <div className="mx-3 sm:mx-6">
                             <h2 class=" font-bold my-4 mt-7">Dim-photography</h2>
                             <p>
