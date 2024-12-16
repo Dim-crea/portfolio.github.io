@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.de7c6a89.css",
-    "main.js": "/portfolio.github.io/static/js/main.23472406.js",
+    "main.css": "/portfolio.github.io/static/css/main.079d4009.css",
+    "main.js": "/portfolio.github.io/static/js/main.7ff092fb.js",
     "static/js/453.ace4626a.chunk.js": "/portfolio.github.io/static/js/453.ace4626a.chunk.js",
     "static/media/Form de connexion.svg": "/portfolio.github.io/static/media/Form de connexion.2e9477cae959b16efc975513c3d82a92.svg",
     "static/media/CV Hauterville Développeur Full-Stack.pdf": "/portfolio.github.io/static/media/CV Hauterville Développeur Full-Stack.ad44ed2db6e7028cf9a1.pdf",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/portfolio.github.io/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
-    "static/media/PortfolioChéris.svg": "/portfolio.github.io/static/media/PortfolioChéris.6fe4515f8f68f1bad0392d1940ba9bd8.svg",
+    "static/media/PortfolioChéris.svg": "/portfolio.github.io/static/media/PortfolioChéris.d1084c2fb30ed09a40d8719ffbce1aa3.svg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio.github.io/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/IMG-20240823-WA0006.jpg": "/portfolio.github.io/static/media/IMG-20240823-WA0006.2e6e91881a72bd45e65a.jpg",
     "static/media/Arialic Hollow.ttf": "/portfolio.github.io/static/media/Arialic Hollow.f98402a8dcc95c603c1f.ttf",
@@ -34,12 +34,12 @@
     "static/media/nextjs1.svg": "/portfolio.github.io/static/media/nextjs1.607b44fe4d0a30f05f92317d6b46fc2d.svg",
     "static/media/tailwind-css.svg": "/portfolio.github.io/static/media/tailwind-css.2c7d824a613f178f10c8f433dfbbb7b2.svg",
     "static/media/flutter.svg": "/portfolio.github.io/static/media/flutter.be53dd8640913ce6f40fb17e47574f76.svg",
-    "main.de7c6a89.css.map": "/portfolio.github.io/static/css/main.de7c6a89.css.map",
-    "main.23472406.js.map": "/portfolio.github.io/static/js/main.23472406.js.map",
+    "main.079d4009.css.map": "/portfolio.github.io/static/css/main.079d4009.css.map",
+    "main.7ff092fb.js.map": "/portfolio.github.io/static/js/main.7ff092fb.js.map",
     "453.ace4626a.chunk.js.map": "/portfolio.github.io/static/js/453.ace4626a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de7c6a89.css",
-    "static/js/main.23472406.js"
+    "static/css/main.079d4009.css",
+    "static/js/main.7ff092fb.js"
   ]
 }
