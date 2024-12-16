@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.079d4009.css",
-    "main.js": "/portfolio.github.io/static/js/main.7ff092fb.js",
+    "main.js": "/portfolio.github.io/static/js/main.ab7800df.js",
     "static/js/453.ace4626a.chunk.js": "/portfolio.github.io/static/js/453.ace4626a.chunk.js",
-    "static/media/Form de connexion.svg": "/portfolio.github.io/static/media/Form de connexion.2e9477cae959b16efc975513c3d82a92.svg",
     "static/media/CV Hauterville Développeur Full-Stack.pdf": "/portfolio.github.io/static/media/CV Hauterville Développeur Full-Stack.ad44ed2db6e7028cf9a1.pdf",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/portfolio.github.io/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
     "static/media/PortfolioChéris.svg": "/portfolio.github.io/static/media/PortfolioChéris.d1084c2fb30ed09a40d8719ffbce1aa3.svg",
+    "static/media/Form de connexion.svg": "/portfolio.github.io/static/media/Form de connexion.3c746056aceca324433ae43bae3937ee.svg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio.github.io/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/portfolioPhoto.svg": "/portfolio.github.io/static/media/portfolioPhoto.6e3ac4fb3b6743150a5103cd091a1808.svg",
     "static/media/IMG-20240823-WA0006.jpg": "/portfolio.github.io/static/media/IMG-20240823-WA0006.2e6e91881a72bd45e65a.jpg",
     "static/media/Arialic Hollow.ttf": "/portfolio.github.io/static/media/Arialic Hollow.f98402a8dcc95c603c1f.ttf",
     "static/media/InriaSans-Light.ttf": "/portfolio.github.io/static/media/InriaSans-Light.206ec293503d64dc42ae.ttf",
@@ -15,7 +16,6 @@
     "static/media/IMG-20240823-WA0005.jpg": "/portfolio.github.io/static/media/IMG-20240823-WA0005.fb7bd88af391700ba355.jpg",
     "static/media/IMG-20240823-WA0003.jpg": "/portfolio.github.io/static/media/IMG-20240823-WA0003.58aad7274838c766ac74.jpg",
     "static/media/IMG-20240823-WA0004.jpg": "/portfolio.github.io/static/media/IMG-20240823-WA0004.d6b4ac119379ad6ac0e2.jpg",
-    "static/media/portfolioPhoto.svg": "/portfolio.github.io/static/media/portfolioPhoto.c79ef97b90ec843b7effe437664a1727.svg",
     "static/media/Créativité.svg": "/portfolio.github.io/static/media/Créativité.7ed5977217c5810bc4a07a40c39a1308.svg",
     "static/media/Autonomie.svg": "/portfolio.github.io/static/media/Autonomie.ea0eb71b93774a4ca8db9aa46f54e04b.svg",
     "static/media/challenger.svg": "/portfolio.github.io/static/media/challenger.5ad650893be4f8793643daec3780e2df.svg",
@@ -35,11 +35,11 @@
     "static/media/tailwind-css.svg": "/portfolio.github.io/static/media/tailwind-css.2c7d824a613f178f10c8f433dfbbb7b2.svg",
     "static/media/flutter.svg": "/portfolio.github.io/static/media/flutter.be53dd8640913ce6f40fb17e47574f76.svg",
     "main.079d4009.css.map": "/portfolio.github.io/static/css/main.079d4009.css.map",
-    "main.7ff092fb.js.map": "/portfolio.github.io/static/js/main.7ff092fb.js.map",
+    "main.ab7800df.js.map": "/portfolio.github.io/static/js/main.ab7800df.js.map",
     "453.ace4626a.chunk.js.map": "/portfolio.github.io/static/js/453.ace4626a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.079d4009.css",
-    "static/js/main.7ff092fb.js"
+    "static/js/main.ab7800df.js"
   ]
 }
